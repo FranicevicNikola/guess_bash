@@ -5,7 +5,7 @@ numfiles=$(ls -1 | wc -l)
 
 congrats() {
     for ((i = 0 ; i < $numcongratz ; i++)); do
-      echo "\$YOU WON$"
+      echo "\$YOU $ WON$"
     done
 }
 
